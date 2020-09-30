@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Signika:wght@300;400;500;515;600;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
+    background-color:white;
+    user-select: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;   
+}
+
+.modalmenu{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.900);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    gap: 20px;
+    font-family: 'Signika', sans-serif;
+    transition: .5s ease-out;
+}
+
+.modalmenu a{
+    font-size: 2rem;
+    font-weight: 100;
+
+}
+
+.modalmenu a:hover{
+    color: royalblue;
+    font-size: 2.1rem;
+}
+
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    padding:0 10%;
+    position: sticky;
+    top: 0;
+    
+}
+
+.brand{
+    font-size: 2rem;
+    color: whitesmoke;
+    font-weight: 200;
+}
+
+.menuIcons{
+    color: #ffffff;
+    font-size: 3rem;
+    margin-left: auto;
+}
+
+.menuIcons:hover{
+    color: rgb(9, 153, 110);
+   
+}
+.closeIcons{
+    margin-left: 30%;
+    margin-top: 10px;
+}
+.closeIcons:hover{
+    color: rgb(9, 153, 110);
+    font-size: 2rem;
+   
+}
+
+.container section{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.home{
+    background-image: url(https://picsum.photos/seed/104/200);
+}
+.about{
+    background-image: url(https://picsum.photos/seed/105/200);
+}
+.contact{
+    background-image: url(https://picsum.photos/seed/101/200);
+}
+.gallery{
+    background-image: url(https://picsum.photos/seed/102/200);
+}
+.footer{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    padding: 0 10%;
+    color: white;
+    background-color: black;
+}
+.left{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+}
+.right{
+    width: 70%;
+    height: 100%;
+    display: flex;
+
+}
+.col1, .col2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.formgroup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.kirim{
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+#messge{
+    width: 100%;
+}

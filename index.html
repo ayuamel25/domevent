@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DOM eventss">
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>DOMEvent</title>
+</head>
+
+<body>
+
+    <div class="modalmenu" onclick="hideModal()">
+        <span class=" material-icons closeIcons"> cancel </span>
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#contact">CONTACT</a>
+        <a href="#gallery">GALLERY</a>
+
+    </div>
+
+    <nav class="navbar">
+        <h3 class="brand">cerry</h3>
+        <span class="material-icons menuIcons" onclick="showModal()">menu</span>
+
+
+    </nav>
+    <main class="container">
+        <section id="home" class="home">home </section>
+        <section id="about" class="about">about </section>
+        <section id="contact" class="contact">contact </section>
+        <section id="gallery" class="gallery">gallery </section>
+
+
+    </main>
+    <footer class="footer">
+        <div class="left">
+            <h3>site map</h3>
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#contact">contact</a>
+            <a href="#gallery">gallery</a>
+        </div>
+
+
+        <div class="right">
+            <div class="col1">
+
+                <div class="formgroup">
+                    <label for="name">nama</label>
+                    <input type="text" name="name" id="name">
+                </div>
+
+                <div class="formgroup">
+                    <label for="phone">wa number</label>
+                    <input type="phone" name="phone" id="phone">
+                </div>
+
+                <div class="formgroup">
+                    <label for="email">email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+            </div>
+
+
+            <div class="col2">
+                
+                <div class="formgroup">
+                    <label for="message">pesan</label>    
+                    <textarea name="message" id="message" cols="30"
+                    rows="10"></textarea>
+                </div>
+
+                <div class="formgroup">
+                    <button class="kirim">
+                        kirim pesan
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./main.js"> </script>
+</body>
+
+</html>
