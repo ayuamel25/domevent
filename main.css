@@ -106,8 +106,8 @@ a{
 }
 .home{
     background: #DBE6F6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #C5796D, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #C5796D, #DBE6F6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to top, #f52606, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #27201f, #DBE6F6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     flex-direction: column;
     background-position: center;
@@ -198,11 +198,31 @@ a{
 
 }
 .gallery{
-    background-image: url(https://picsum.photos/seed/20/900);
+    flex-direction: column;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+.container-gallery
+    width: 100vw;
+    display: flex;
+    padding: 20px 40px !important;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-gallery img{
+    transition-duration: .5s;
 
 }
+.container-gallery img:hover{
+        border-radius: 200px;
+
+
+
+}
+
 #galIcons{
     font-size: 8rem;
     color: white;
