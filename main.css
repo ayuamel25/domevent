@@ -57,7 +57,7 @@ a{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: pink;
+    background-color: coral;
     padding:0 40px;
     position: sticky;
     top: 0;
@@ -162,7 +162,7 @@ a{
 }
     .box{
         padding: 30px;
-        border: 0px solid palevioletred;
+        border: 0px solid rgb(43, 2, 15);
     }
     
     .about_box1{
@@ -238,7 +238,7 @@ a{
     width: 70%;
     height: 100%;
     display: flex;
-    background-color: pink;
+    background-color: blue;
 
 }
 
